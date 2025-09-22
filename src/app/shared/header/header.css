@@ -16,21 +16,26 @@ a{
     display: flex;
     list-style-type: none;
     align-items: center;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header-container{
     position: fixed;
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 1px 10px 5px rgba(0, 0, 0, 0.4);
     color: white;
     z-index: 10;
+    
 }
 
 .navegation-container{
     display: flex;
     width: 100%;
     margin: auto;
-    max-width: 120rem;
+    max-width: 150rem;
     align-items: center;
     justify-content: space-between;
     
@@ -41,7 +46,7 @@ a{
     font-size: 1.3rem;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 2rem;
+    padding: 3rem;
     position: relative;
 }
 

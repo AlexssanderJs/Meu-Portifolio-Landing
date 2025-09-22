@@ -10,7 +10,7 @@ html{
 
 body{
     font-family: "Open Sans", sans-serif;
-    color: var(--primary-color);
+    min-height: 100vh;
     line-height: 1.5;
 }
 
