@@ -16,6 +16,7 @@ html{
     width: 100vw;
     max-height: 100vh;
     max-width: 100vw;
+    background-image: linear-gradient(to bottom, #fff 45%, #3110a8 90%);
 }
 
 .project-page .project-content{
@@ -27,16 +28,16 @@ html{
     height: 100%;
     max-width: 150rem;
     max-height: 60rem;
-    
 }
 
 .project-page .project-content .project-item{
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto auto auto;
     justify-items: center;
-    background-color: rgba(41, 0, 153, 0.692);
-    color: white;
-    width: 100%;
+    align-items: center;
+    background-color: #ffffff9c;
+    color: black;
+    width: 80%;
     border: 1px solid #55555527;
     transition: transform 0.3s, box-shadow 0.3s;
     border-radius: 1rem;
@@ -49,8 +50,7 @@ html{
 }
 
 .project-page .project-content .project-item .project-title{
-
-    font-size: 4rem;
+    font-size: 2rem;
     height: fit-content;    
 }
 
@@ -58,21 +58,20 @@ html{
     padding: 2rem;
     justify-self: center;
     align-self: center;
-    font-size: 2rem;
-    height: 32rem;
-    width: 32rem;
+    font-size: 1.5rem;
+    height: 17rem;
     max-width: 100%;
     max-height: 100%;
-    border: 0.2rem solid rgba(0,0,0,0.25);
+    text-align: center;
     border-radius: 2rem;
-    background-color: white;
+
     color: black;
 }
 
 .project-page .project-content .project-item .project-link{
     justify-self: end;
     align-self: end;
-    width: 17rem;
+    width: 16rem;
     color: white;
     background-color: #3366ff;
     text-align: center;
@@ -86,4 +85,10 @@ html{
 
 .project-page .project-content .project-item .project-link:hover{
     background-color: #234da0;
+}
+
+.project-image{
+    width: auto;
+    height: 17rem;
+    object-fit: cover;
 }
