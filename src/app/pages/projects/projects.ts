@@ -16,7 +16,7 @@ export class Projects {
       link: 'https://github.com/AlexssanderJs/Meu-Portifolio-Landing'
     },
      {
-      titulo: 'Testes com PlayWright',
+      titulo: 'PlayWright',
       descricao: 'Um simples projeto, em Python, de validação de um formulário com testes unitário utilizado a ferramenta PlayWright',
       link: 'https://github.com/AlexssanderJs/Teste_de_Formulario_PlayWright'
     },
