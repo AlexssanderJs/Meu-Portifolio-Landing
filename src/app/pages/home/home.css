@@ -17,6 +17,7 @@ html{
     width: 100vw;
     max-height: 100vh;
     max-width: 100vw;
+    background-color: rgba(151, 145, 145, 0.062);
 }
 
 .main-content{
@@ -32,7 +33,7 @@ html{
     background: rgba(255, 255, 255, 0.7);
     border-radius: 14px;
     padding: 3rem;
-    box-shadow: 0 8px 30px 5px rgba(0,0,0,0.06);
+    box-shadow: 0 8px 30px 10px rgba(0,0,0,0.06);
 }
 
 .main-content .text-content{
@@ -48,7 +49,7 @@ html{
 
 .text-content .titulo{
     width: 100%;
-    font-size: 6rem;
+    font-size: 5rem;
     text-align: center;
 }
 
@@ -57,22 +58,43 @@ html{
     font-size: 2rem;
 }
 
+.skills{
+    padding: 2rem;
+}
+
 .main-content .skills .skills-titulo{
     font-size: 4rem;
 }
 
 .main-content .skills .skills-items{
-    margin-top: 3rem;
+    justify-items: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
+    margin-top: 2rem;
+    grid-template-columns: auto auto auto auto;
+    gap: 2rem;
     width: 100%;
     list-style: none;
-    font-size: 3rem;
+    font-size: 2rem;
     
 }
 
-img{
+.main-content .skills .skills-items li{
+    display: flex;
+    margin: 2rem;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main-content .skills .skills-items li .skill-image{
+    width: auto;
+    height: 8rem;
+    align-self: center;
+}
+
+
+.minha-foto{
     justify-self: center;
     align-items: center;
     object-fit: cover;

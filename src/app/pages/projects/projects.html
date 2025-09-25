@@ -2,6 +2,7 @@
     <div class="project-content">
         @for (project of projects; track $index) {
             <div class="project-item">
+                <img [src]="project.image" alt="imagem" class="project-image">
                 <h2 class="project-title">{{ project.titulo }}</h2>
                 <p class="project-descricao">{{ project.descricao }}</p>
                 <a [href]="project.link" class="project-link" target="_blank">Saiba mais</a>
