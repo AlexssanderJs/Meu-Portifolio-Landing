@@ -1,1 +1,13 @@
-<p>interests works!</p>
+<section class="interest-page">
+    <div class="interest-content">
+        @for (interest of interests; track $index) {
+            <div class="interest-item">
+                <img [src]="interest.image" alt="interest-image" class="interest-image">
+                <div class="interest-item-text">
+                    <h2 class="interest-title">{{ interest.titulo }}</h2>
+                    <p class="interest-descricao">{{ interest.descricao }}</p>
+                </div>
+            </div>
+        }
+    </div>
+</section>
