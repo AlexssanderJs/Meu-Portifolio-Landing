@@ -6,7 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
+    "test": "npx jest",
+    "test:watchAll": "npx jest --watchAll",
+    "test:watch": "npx jest --watch",
+    "test:coverage": "npx jest --coverage",
     "serve:ssr:projeto_final_angular": "node dist/projeto_final_angular/server/server.mjs"
   },
   "prettier": {
@@ -41,14 +44,10 @@
     "@angular/compiler-cli": "^20.3.1",
     "@angular/language-service": "^20.2.4",
     "@types/express": "^5.0.1",
-    "@types/jasmine": "~5.1.0",
+    "@types/jest": "^30.0.0",
     "@types/node": "^20.17.19",
-    "jasmine-core": "~5.9.0",
-    "karma": "~6.4.0",
-    "karma-chrome-launcher": "~3.2.0",
-    "karma-coverage": "~2.2.0",
-    "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "~2.1.0",
+    "jest-preset-angular": "^15.0.1",
+    "ts-node": "^10.9.2",
     "typescript": "~5.9.2"
   }
 }
