@@ -1,0 +1,2 @@
+export default `*{padding:0;margin:0;box-sizing:border-box}html{font-size:62.5%;height:100vh;width:100vw}body{font-family:Open Sans,sans-serif;line-height:1.5}h1,h2,h3,h4,h5,h6{font-family:Montserrat,sans-serif}
+`;
