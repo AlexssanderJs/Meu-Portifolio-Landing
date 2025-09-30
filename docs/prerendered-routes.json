@@ -1,9 +1,0 @@
-{
-  "routes": {
-    "/meu-portifolio-landing": {},
-    "/meu-portifolio-landing/contato": {},
-    "/meu-portifolio-landing/home": {},
-    "/meu-portifolio-landing/interesses": {},
-    "/meu-portifolio-landing/projetos": {}
-  }
-}
