@@ -17,7 +17,7 @@ html{
     width: 100vw;
     max-height: 100vh;
     max-width: 100vw;
-    background-color: rgba(250, 136, 136, 0.212);
+    background-color: rgba(207, 25, 25, 0.075);
 }
 
 .interest-page .interest-content{
@@ -35,6 +35,7 @@ html{
     box-shadow: 0 8px 30px 10px rgba(0,0,0,0.06);
     border-radius: 1rem;
     gap: 3rem;
+    background-color: rgba(255, 255, 255, 0.425);
 
 }
 
