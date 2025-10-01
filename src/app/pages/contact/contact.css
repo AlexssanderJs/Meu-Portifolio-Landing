@@ -1,4 +1,15 @@
-.contact {
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    font-size: 62.5%;
+}
+
+.contact-page{
   min-height: calc(100vh - 8rem);
   display: grid;
   place-items: center;
@@ -6,18 +17,18 @@
   padding: 4rem 2rem;
 }
 
-.contact .container {
+.contact-page .container {
   max-width: 60rem;
   width: 100%;
   text-align: center;
 }
 
-.contact h1 {
+.contact-page h1 {
   font-size: 6rem;
   margin-bottom: 2rem;
 }
 
-.contact p {
+.contact-page p {
   font-size: 2rem;
   margin-bottom: 4rem;
   color: #555;
