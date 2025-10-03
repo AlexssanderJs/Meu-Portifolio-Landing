@@ -91,36 +91,88 @@
     border: 3px solid rgba(0,0,0,0.05);
 }
 
-@media (max-width: 900px){
+@media (max-width: 1150px){
      .main-content{
         grid-template-columns: 1fr;
-                
-        /* ✅ Remova a restrição de largura máxima do desktop */
-        /* E garanta que ele ocupe quase toda a tela com uma margem de segurança */
         max-width: 100%; 
-        width: 100%; /* Ou 100%, dependendo do seu design */
+        width: 100%;
+        margin: 5rem;
+        padding: 3rem;
     }
-    
-    /* 💡 O TEXT-CONTENT também precisa ser liberado, pois ele também tinha um max-width */
     .main-content .text-content {
-        max-width: 100%; /* Isso garante que a coluna de texto use todo o espaço */
+        max-width: 100%;
     }
 
     .main-content .text-content .text-titulo{
-    /* Era 5rem (50px). Sugestão: 30px */
-    font-size: 3rem; 
+    font-size: 2rem; 
     }
 
-/* Corpo do Texto (Texto: "text-body") */
     .main-content .text-content .text-body{
-    /* Era 2rem (20px). Sugestão: 16px */
-    font-size: 1.6rem; 
+    font-size: 1rem; 
     }
 
     .main-content .skills-list .skills-items{
-    /* Era: grid-template-columns: auto auto auto auto; */
-    grid-template-columns: 1fr 1fr; /* ✅ Troque para 2 colunas flexíveis */
-    gap: 1rem; /* ✅ Reduza o gap para não apertar */
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
     font-size: 1rem;
     }
+
+    .main-content .my-picture{
+    max-width: 80%;
+    object-fit: cover;
+    justify-self: center;
+    align-items: center;
+    }
+
+    .main-content .skills-list .skills-titulo{
+    font-size: 1.5rem;
+}
+}
+
+@media (max-width: 350px){
+
+    .main-content{
+        margin: 2rem;
+        padding: 0;
+    }
+
+    .main-content .text-content{
+        min-width: 0;
+        max-width: 80%;
+        
+    }
+
+    .main-content .text-content .text-titulo{
+        font-size: 1rem;
+        min-width: 0;
+        
+    }
+
+    .main-content .text-content .text-body{
+        min-width: 0;
+        font-size: 0.7rem;
+    } 
+
+    .main-content .my-picture{
+        min-width: 0;
+        width: 50%;
+    }
+
+    .main-content .skills-list{
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-content .skills-list .skills-items{
+        min-width: 0;
+        max-width: 100%; 
+        grid-template-columns: 1fr;
+    }
+
+
+    .main-content .skills-list .skills-image{
+        min-width: 0;
+    }
+
 }
