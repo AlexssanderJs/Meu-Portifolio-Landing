@@ -1,4 +1,4 @@
-.contact {
+.contact-page{
   min-height: calc(100vh - 8rem);
   display: grid;
   place-items: center;
@@ -6,18 +6,18 @@
   padding: 4rem 2rem;
 }
 
-.contact .container {
+.contact-page .contact-content {
   max-width: 60rem;
   width: 100%;
   text-align: center;
 }
 
-.contact h1 {
+.contact-page .contact-content .contact-title {
   font-size: 6rem;
   margin-bottom: 2rem;
 }
 
-.contact p {
+.contact-page .contact-content .contact-description {
   font-size: 2rem;
   margin-bottom: 4rem;
   color: #555;
@@ -30,7 +30,7 @@
 }
 
 .contact-form input,
-.contact-form textarea {
+.contact-form .mensage-text-area {
   padding: 1.2rem 1.6rem;
   border-radius: 1rem;
   border: 1px solid #ccc;
@@ -41,12 +41,12 @@
 }
 
 .contact-form input:focus,
-.contact-form textarea:focus {
+.contact-form .mensage-text-area:focus {
   border-color: #3366ff; /* cor de destaque */
   box-shadow: 0 0 10px rgba(51,102,255,0.2);
 }
 
-.contact-form button {
+.contact-form .submit-button {
   padding: 1.5rem 3rem;
   border-radius: 3rem;
   background: #3366ff;
@@ -57,7 +57,7 @@
   transition: 0.3s;
 }
 
-.contact-form button:hover {
+.contact-form .submit-button:hover {
   background: #254fcc;
 }
 
@@ -71,4 +71,32 @@
 
 .social-links a:hover {
   color: #3366ff;
+}
+
+@media (max-width: 330px){
+
+  .contact-page{
+    padding: 1rem;
+  }
+  .contact-page .contact-content .contact-title {
+    font-size: 3rem;
+  }
+
+  .contact-page .contact-content .contact-description{
+    font-size: 1rem ;
+  }
+
+  .contact-form .submit-button {
+    font-size: 1rem;
+      
+  }
+
+  .contact-form input,
+  .contact-form .mensage-text-area {
+  font-size: 1rem;
+  }
+
+  .social-links a {
+    font-size: 1rem;
+  }
 }
