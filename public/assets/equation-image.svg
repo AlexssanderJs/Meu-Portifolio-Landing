@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300" height="120" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120">
+  <!-- Background -->
+  <rect width="300" height="120" fill="white"/>
+  
+  <!-- Equation: x²/a² + z²/c² = 1 -->
+  
+  <!-- First fraction: x²/a² -->
+  <g id="first-fraction">
+    <!-- Numerator x² -->
+    <text x="40" y="40" font-family="serif" font-size="32" font-style="italic" fill="black">x</text>
+    <text x="58" y="32" font-family="serif" font-size="20" fill="black">2</text>
+    
+    <!-- Fraction line -->
+    <line x1="30" y1="50" x2="90" y2="50" stroke="black" stroke-width="2"/>
+    
+    <!-- Denominator a² -->
+    <text x="40" y="80" font-family="serif" font-size="32" font-style="italic" fill="black">a</text>
+    <text x="58" y="72" font-family="serif" font-size="20" fill="black">2</text>
+  </g>
+  
+  <!-- Plus sign -->
+  <text x="105" y="67" font-family="serif" font-size="36" fill="black">+</text>
+  
+  <!-- Second fraction: z²/c² -->
+  <g id="second-fraction">
+    <!-- Numerator z² -->
+    <text x="145" y="40" font-family="serif" font-size="32" font-style="italic" fill="black">z</text>
+    <text x="163" y="32" font-family="serif" font-size="20" fill="black">2</text>
+    
+    <!-- Fraction line -->
+    <line x1="135" y1="50" x2="195" y2="50" stroke="black" stroke-width="2"/>
+    
+    <!-- Denominator c² -->
+    <text x="145" y="80" font-family="serif" font-size="32" font-style="italic" fill="black">c</text>
+    <text x="163" y="72" font-family="serif" font-size="20" fill="black">2</text>
+  </g>
+  
+  <!-- Equals sign -->
+  <text x="210" y="67" font-family="serif" font-size="36" fill="black">=</text>
+  
+  <!-- One -->
+  <text x="245" y="67" font-family="serif" font-size="36" fill="black">1</text>
+</svg>
